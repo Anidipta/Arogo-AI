@@ -1,0 +1,8 @@
+import requests
+
+url = "https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/keras/datasets/imagenet_classes.txt"
+response = requests.get(url)
+
+# Save the content to a file
+with open("imagenet_labels.txt", "w") as file:
+    file.write(response.text)
