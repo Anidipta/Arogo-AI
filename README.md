@@ -70,18 +70,6 @@ Build a web app where users upload images and receive descriptions of the conten
 
 ---
 
-### 🏆 **Key Features**  
-
-1. **Shipment Delay Prediction**:  
-   - 🚚 Predict shipment delays.  
-   - 🌐 API integration for logistics.  
-
-2. **Image Description Web App**:  
-   - 🖼️ Generate descriptions for images.  
-   - 🌍 Hosted on AWS for easy access.  
-
----
-
 ### 🤝 **Contributors**  
 - 👨‍💻 [Anidipta](https://github.com/Anidipta)  
 
