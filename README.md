@@ -27,6 +27,7 @@ Build a model to predict shipment delays based on historical data and deploy it 
      ```
 
 ### 📂 **Key Files**  
+- **app.py**: Frontend streamlit web app.
 - **flask_api.py**: API logic for shipment delay prediction.  
 - **best_automl_classifier.pkl**: Trained ExtraTreesClassifier model for delay prediction.  
 - **Model_Training.ipynb**: Exploratory data analysis (EDA) and data prep.  
@@ -62,19 +63,13 @@ Build a web app where users upload images and receive descriptions of the conten
      ```
 
 ### 📂 **Key Files**  
-- **streamlit_app.py**: This file contains the frontend interface for your Streamlit application, allowing users to upload images. It interacts with the backend API for image processing and displays the results.
-- **flask_api.py**: This file serves as the backend of your project, integrating the model for image captioning. It handles requests from the frontend and processes images for predictions.
-- **data.db**: Likely the database file used for storing relevant data for the project.
-- **model_20_.h5**: The trained model file, possibly the machine learning model for image captioning or another task.
-- **tokenizer_vt2.pkl**: A pickle file for the tokenizer, likely used for processing text data related to image captions or NLP tasks.
+- **streamlit_app.py**: Frontend interface for streamlit web app.
+- **flask_api.py**: Backend integrating the model for image captioning
+- **data.db**: Database file used for storing the images and their responses.
+- **model_20_.h5**: The pre-trained model for image description.
+- **tokenizer_vt2.pkl**: Tokenizer, for processing text data related to image.
 
 ---
 
-### 🤝 **Contributors**  
+### 🤝 **Contributor**  
 - 👨‍💻 [Anidipta](https://github.com/Anidipta)  
-
-📬 Reach out for queries or collaborations!  
-
----  
-
-🌟 Happy Coding! 🚀
