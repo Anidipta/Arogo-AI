@@ -1,9 +1,3 @@
-# Arogo-AI: 🚛 Shipment Delay Prediction & 🖼️ Image Description Web Application  
-
-Welcome to the **AI/ML Internship Submission** repository! This document provides a guide on how to run the **Shipment Delay Prediction** and **Image Description Web Application**.
-
----
-
 ## 🚛 **Problem 1: Shipment Delay Prediction**  
 
 ### 📋 **Objective**  
@@ -48,8 +42,8 @@ Build a web app where users upload images and receive descriptions of the conten
 
 1. **Clone the Repository**  
    ```bash  
-   git clone https://github.com/username/image-description-webapp  
-   cd image-description-webapp  
+   git clone https://github.com/Anidipta/Arogo-AI.git  
+   cd Arogo-AI/Task-2 
    ```
 
 2. **Install Backend Dependencies**  
@@ -59,16 +53,20 @@ Build a web app where users upload images and receive descriptions of the conten
 
 3. **Start the API**  
    ```bash  
-   uvicorn main:app --reload  
+   python flask_api.py 
    ```
 
-4. **Frontend Access**  
-   - Open `index.html` in your browser to upload images and view generated descriptions.
+4. **Start the Streamlit Web App**  
+     ```bash
+     streamlit run streamlit_app.py
+     ```
 
 ### 📂 **Key Files**  
-- **main.py**: Backend API for image description generation.  
-- **index.html**: Frontend interface for image upload.  
-- **model.py**: Model integration for image captioning.  
+- **streamlit_app.py**: This file contains the frontend interface for your Streamlit application, allowing users to upload images. It interacts with the backend API for image processing and displays the results.
+- **flask_api.py**: This file serves as the backend of your project, integrating the model for image captioning. It handles requests from the frontend and processes images for predictions.
+- **data.db**: Likely the database file used for storing relevant data for the project.
+- **model_20_.h5**: The trained model file, possibly the machine learning model for image captioning or another task.
+- **tokenizer_vt2.pkl**: A pickle file for the tokenizer, likely used for processing text data related to image captions or NLP tasks.
 
 ---
 
