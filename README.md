@@ -35,7 +35,7 @@ Build a model to predict shipment delays based on historical data and deploy it 
 
 ### Our App
 
-![Task-1 App](Task-1%20App.png)
+![Task-1 App](Task-1_App.png)
 
 
 ---
@@ -74,6 +74,11 @@ Build a web app where users upload images and receive descriptions of the conten
 - **data.db**: Database file used for storing the images and their responses.
 - **model_20_.h5**: The pre-trained model for image description.
 - **tokenizer_vt2.pkl**: Tokenizer, for processing text data related to image.
+
+### Our App
+
+![Task-2 App](Task-2_App.png)
+
 
 ---
 
