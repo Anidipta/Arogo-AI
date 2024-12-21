@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import sqlite3
 import numpy as np
@@ -274,4 +273,3 @@ def upload():
 if __name__ == '__main__':
     init_db()
     app.run(debug=True)
->>>>>>> b4bc39919c4a917426954ad756bdb089198de44c
