@@ -32,6 +32,12 @@ Build a model to predict shipment delays based on historical data and deploy it 
 - **best_automl_classifier.pkl**: Trained ExtraTreesClassifier model for delay prediction.  
 - **Model_Training.ipynb**: Exploratory data analysis (EDA) and data prep.  
 
+
+### Our App
+
+![Task-1 App](Task-1%20App.png)
+
+
 ---
 
 ## 🖼️ **Problem 2: Image Description Web Application**  
