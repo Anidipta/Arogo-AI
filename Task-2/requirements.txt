@@ -1,0 +1,8 @@
+streamlit
+requests
+Pillow
+flask
+tensorflow
+numpy
+sqlite3
+pickle5
